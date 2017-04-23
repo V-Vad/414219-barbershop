@@ -1,6 +1,13 @@
 body {
 	font-size: 16px;
 	font-family: "PT sans";
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 .index-content-title{
 	font-size: 30px;
@@ -13,3 +20,91 @@ body {
 .main-title {
 	font-size: 30px;
 	line-height: 42px;
+}
+
+/* item */
+.second-header{
+	margin-bottom: 60px;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.header-logo {
+	width: 140px;
+	float: left;
+	margin-right: 40px;
+}
+.main-nav {
+	width: 530px;
+	float: left;
+}
+.main-nav li {
+	display: inline-block;
+}
+.user-block {
+	width: 140px;
+	float: right;
+}
+.main-title {
+	width: 620px;
+	margin-bottom: 20px;
+}
+.breadcrumbs {
+	margin-bottom: 50px;
+}
+.breadcrumbs li {
+	display: inline-block;
+}
+.item-img {
+	float: left;
+	width: 460px;
+}
+.item-img img {
+	margin-bottom: 20px;
+}
+.secondary-img img{
+	display: inline-block;
+}
+.item-details {
+	float: right;
+	width: 400px;
+}
+.main-footer {
+	margin-top: 50px;
+}
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+.footer-social {
+	float: left;
+	width: 180px;
+}
+.footer-copyright {
+	float: right;
+	width: 180px;
+}
+/* catalog */
+.item-filtration {
+	float: left;
+	width: 220px;
+}
+.item {
+	display: inline-block;
+}
+.catalog-items {
+	margin-bottom: 50px;
+}
+.column2 {
+	float: right;
+	width: 700px;
+}
+.catalog-list {
+	float: left;
+}
+.catalog-list li {
+	display: inline-block;
+}

@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Набор для путешествий&laquo;Baxter of California&raquo;</title>
-	<link href="css/style.css" rel="stylesheet"
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="second-header">
-      <div class="container">
-        <nav class="second-nav">
-          <ul>
-            <li>
-              <a href="index.html"><img src="img/logo2.png" width="111" height="24" alt="Барбершоп"></a>
-            </li>
+      <div class="container clearfix">
+	    <div class="header-logo">
+		  <a href="index.html"><img src="img/logo2.png" width="111" height="24" alt="Барбершоп"></a>
+		</div>
+        <nav class="main-nav">
+          <ul> 
             <li>
                <a href="#">Информация</a>
             </li>
@@ -35,7 +36,7 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
       <h1 class="main-title">Набор для путешествий&laquo;Baxter of California&raquo;</h1>
       <nav class="breadcrumbs">
           <ul>
@@ -45,27 +46,19 @@
             <li>Набор для путешествий&laquo;Baxter of California&raquo;</li>
           </ul>
       </nav>
-      <div class="item-info">
+      <div class="item-info clearfix">
          <section class="item-img">
-           <div class="main-img">
-             <img src="img/main-photo.jpg" width="486" height="524" alt="большая картинка">
-           </div>
+           <img src="img/main-photo.png" width="460" height="524" alt="большая картинка">
            <div class="secondary-img">
-             <div class="small-img">
-               <img src="img/small-photo1.jpg" alt="маленькая картинка" width="166" height="175">
-             </div>
-             <div class="small-img">
-               <img src="img/small-photo2.jpg" alt="маленькая картинка" width="166" height="175">
-             </div>
-             <div class="small-img">
-               <img src="img/small-photo3.jpg" alt="маленькая картинка" width="166" height="175">
-             </div>
+             <img src="img/small-photo1.png" alt="маленькая картинка" width="140" height="175">
+             <img src="img/small-photo2.png" alt="маленькая картинка" width="140" height="175">
+             <img src="img/small-photo3.png" alt="маленькая картинка" width="140" height="175">
            </div>
          </section>
-         <section>
+         <section class="item-details">
            <div class="item-presence">Есть в наличии</div>
            <div class="item-article">Артикул:Dexter-Ae</div>
-           <div class="item-info">
+           <div class="item-description">
              <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха. Набор также может стать отличным подарком.</p>
            </div>
            <div class="item-buy">
@@ -87,7 +80,7 @@
 
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
